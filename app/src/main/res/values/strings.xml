@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shortcuts</string>
+
+    <string name="camera">相簿</string>
+    <string name="chat">聊天</string>
+    <string name="profil">會員</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_camera"
+        android:shortcutId="camera"
+        android:shortcutLongLabel="@string/camera"
+        android:shortcutShortLabel="@string/camera">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shortcuts"
+            android:targetClass="com.example.shortcuts.MainActivity"/>
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="profile"
+        android:enabled="true"
+        android:icon="@mipmap/ic_profile"
+        android:shortcutShortLabel="@string/profil"
+        android:shortcutLongLabel="@string/profil">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shortcuts"
+            android:targetClass="com.example.shortcuts.Room2Activity"/>
+
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="chat"
+        android:enabled="true"
+        android:icon="@mipmap/ic_chat"
+        android:shortcutShortLabel="@string/chat"
+        android:shortcutLongLabel="@string/chat">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shortcuts"
+            android:targetClass="com.example.shortcuts.Room3Activity"/>
+
+    </shortcut>
+
+</shortcuts>
